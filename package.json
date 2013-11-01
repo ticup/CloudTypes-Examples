@@ -3,9 +3,15 @@
   "description": "Uses the CloudTypes library to deploy the examples on heroku",
   "author": "Tim Coppieters <coppieters.tim@gmail.com>",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/ticup/CloudTypes-Examples.git"
+  },
   "engine": "node >= 0.4.1",
   "dependencies": {
-    "cloudtypes": "*"
+    "socket.io": "*",
+    "cloudtypes": "*",
+    "node-static": "*"
   },
   "devDependencies": {},
   "optionalDependencies": {}
