@@ -1,0 +1,12 @@
+{
+  "name": "cloudtypes-examples",
+  "description": "Uses the CloudTypes library to deploy the examples on heroku",
+  "author": "Tim Coppieters <coppieters.tim@gmail.com>",
+  "version": "0.0.1",
+  "engine": "node >= 0.4.1",
+  "dependencies": {
+    "cloudtypes": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
